@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="eng">
+ <head>
+  <meta charset="utf-8">
+  <title>Vynilizer</title>
+  <link rel="stylesheet" href="files/styles/style.css">
+  <script src="/files/js/doms.js" src="/files/js/play.js"async></script>
+ </head>
+
+ <body>
+  <div id="vynil">
+    <h1>Vynilizer on JS</h1>
+
+
+    <section id="vynil-container">
+
+      <img src="/files/img/VinylRecord2.png" id="record">
+      <img src="/files/img/Tonarm2.png" id="tonarm">
+
+
+<!-- Container with playlist -->
+        <section id='songContainer'>
+
+            <ul>
+                <h2>Playlist:</h2>
+                <li id='song1'>Fkj - Tadow</li>
+                <li id='song2'>Leonard Cohen - Nevermind</li>
+                <li id='song3'>Sabaton - PrimoVictoria</li>
+            </ul>
+
+          </section>
+
+<!-- Button Play/Pause-->
+<section id="playStopContainer">
+
+    <img src="/files/img/ButtonOff.png" id= "playPauseButton">
+
+</section>
+
+<section id="timePassedSection">
+
+    <p>Time passed: <span id="time"></span></p>
+    <p>Duration: <span id="duration"></span></p>
+
+</section>
+
+<!-- Button Stop (Off) -->
+
+<section id="offContainer">
+
+  <img src="/files/img/ButtonOff.png" id= "turnOff-button">
+
+</section>
+
+<!--pack of audio-->
+    <audio id="audio1">
+        <source src="/files/audio/Fkj_Tadow.mp3" type="audio/mp3" autoplay="false"  >
+    </audio>
+    <audio id="audio2">
+        <source src="/files/audio/LeonardCohen__Nevermind.mp3" type="audio/mp3" autoplay="false"  >
+    </audio>
+    <audio id="audio3">
+        <source src="/files/audio/Sabaton__PrimoVictoria.mp3" type="audio/mp3" autoplay="false"  >
+    </audio>
+
+    </div>
+
+
+ </body>
+
+</html>
